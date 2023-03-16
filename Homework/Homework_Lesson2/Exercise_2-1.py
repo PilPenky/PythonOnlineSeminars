@@ -66,6 +66,7 @@ if n == 1:
             quit()
     else:
         print("До свидания")
+        quit()
 
 head = 0
 tail = 0

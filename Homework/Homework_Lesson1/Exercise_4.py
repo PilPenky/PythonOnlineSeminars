@@ -44,17 +44,17 @@ elif (z >= int(x)) or (z >= int(y)): # Проверка по ширине
     rx = range(int(x), int(x) * int(y) + 1, int(x))
     for i in rx:
         if i == z:
-            print('Можете отломить (ШИРИНА)!!!')
+            print('Можете отломить :)')
             break
     else:
         if (z >= int(x)) or (z >= int(y)): # Проверка по высоте
             ry = range(int(y), int(x) * int(y) + 1, int(y))
             for j in ry:
                 if j == z:
-                    print('Можете отломить (ВЫСОТА)!!!')
+                    print('Можете отломить :)')
                     break
             else:
                 if (z >= int(x)) or (z >= int(y)):
-                    print('Отломить нельзя В ЦИКЛЕ')
+                    print('Отломить нельзя :(')
 else:
     print('Отломить нельзя ПОСЛЕДНЕЕ')
