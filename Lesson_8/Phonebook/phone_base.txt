@@ -1,0 +1,4 @@
+{
+    {"id": 1, "lastname": Ivanov, "firstname": Ivan, "secondname": Ivanovich, "phone": 71234567890},
+    {"id": 2, "lastname": Petrov, "firstname": Petr, "secondname": Petrovich, "phone": 71239999999}
+}
